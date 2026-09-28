@@ -1,0 +1,14 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "factoid-bureau-scorebot",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-09-28",
+	"d1_databases": [
+		{
+			"binding": "SCOREBOT_DB",
+			"database_name": "factoid-bureau-scorebot",
+			"database_id": "8abaec0e-d509-4bb8-8d89-b916cab2eb4e",
+			"migrations_dir": "migrations"
+		}
+	]
+}
